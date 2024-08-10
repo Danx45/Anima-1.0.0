@@ -21,6 +21,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAPLE_BLOCK);
                         entries.add(ModBlocks.ADOBE_BRICKS);
+                        entries.add(ModBlocks.BLOCK_OF_STRIPE);
 
                     }).build());
 

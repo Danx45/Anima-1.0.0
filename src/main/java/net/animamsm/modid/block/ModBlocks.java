@@ -9,6 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -17,7 +18,7 @@ public class ModBlocks {
     public static final Block ADOBE_BRICKS = registerBlock("adobe_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
     public static final Block BLOCK_OF_STRIPE = registerBlock("block_of_stripe",
-            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2.0F,1200.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AnimaMSM.MOD_ID, name), block);
