@@ -1,12 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "anima_msm",
+	"id": "animamsm",
 	"version": "${version}",
 	"name": "Anima MSM",
 	"description": "Anima is a mod adding extra content for the MSM server including lore items, trinkets, and new building blocks.",
 	"authors": [
 		"Danx",
-		"Moistboi",
 		"Masaia"
 	],
 	"contact": {
@@ -37,6 +36,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "Trinkets API"
+		"another-mod": "Trinkets API, BetterCombat"
 	}
 }

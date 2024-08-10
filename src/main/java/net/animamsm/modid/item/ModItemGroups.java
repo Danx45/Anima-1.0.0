@@ -14,12 +14,16 @@ public class ModItemGroups {
     public static final ItemGroup ANIMA_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AnimaMSM.MOD_ID,"anima"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.anima"))
-                    .icon(() -> new ItemStack(ModItems.HEART_OF_THE_WOODS)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.MASAIAN_CONDUIT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.HEART_OF_THE_WOODS);
                         entries.add(ModItems.BOTTLE_OF_MAPLE_SYRUP);
+                        entries.add(ModItems.MASAIAN_CONDUIT);
+                        entries.add(ModItems.EMPTY_ARTIFACT);
 
                         entries.add(ModBlocks.MAPLE_BLOCK);
                         entries.add(ModBlocks.ADOBE_BRICKS);
+                        entries.add(ModBlocks.STURDY_BRICKS);
+                        entries.add(ModBlocks.REFRACTORY_BRICKS);
                         entries.add(ModBlocks.BLOCK_OF_STRIPE);
 
                     }).build());

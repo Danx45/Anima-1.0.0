@@ -1,0 +1,9 @@
+// 1.20.1	2024-08-10T21:52:45.3434139	Anima MSM/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\axe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\shovel.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+a4bbfd01bdfd51995356f724a35bbc434315358c data\minecraft\tags\blocks\mineable\pickaxe.json
+31497d626855a3c497f5a687bc78b7c7ff59a079 data\minecraft\tags\blocks\needs_stone_tool.json

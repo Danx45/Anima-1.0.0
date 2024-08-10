@@ -21,6 +21,5 @@ public class AnimaMSM implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAPLE_BLOCK, RenderLayer.getTranslucent());
 	}
 }

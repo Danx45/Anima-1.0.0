@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bottle_of_maple_syrup": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "animamsm:bottle_of_maple_syrup"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "animamsm:maple_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bottle_of_maple_syrup",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "animamsm:maple_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

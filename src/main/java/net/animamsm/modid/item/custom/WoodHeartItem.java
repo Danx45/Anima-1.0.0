@@ -21,7 +21,7 @@ public class WoodHeartItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.animamsm.wood_heart.tooltip").formatted(Formatting.DARK_GRAY));
+        tooltip.add(Text.translatable("tooltip.animamsm.wood_heart.tooltip").formatted(Formatting.ITALIC).formatted(Formatting.GRAY));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

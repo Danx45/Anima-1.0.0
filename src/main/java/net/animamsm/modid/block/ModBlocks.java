@@ -2,6 +2,7 @@ package net.animamsm.modid.block;
 
 import net.animamsm.modid.AnimaMSM;
 import net.animamsm.modid.block.custom.MapleBlock;
+import net.animamsm.modid.block.custom.MasaianTerracottaBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -20,8 +21,12 @@ public class ModBlocks {
             new MapleBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
     public static final Block ADOBE_BRICKS = registerBlock("adobe_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+    public static final Block REFRACTORY_BRICKS = registerBlock("refractory_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+    public static final Block STURDY_BRICKS = registerBlock("sturdy_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
     public static final Block BLOCK_OF_STRIPE = registerBlock("block_of_stripe",
-            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2.0F,1200.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new MasaianTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2.0F,1200.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AnimaMSM.MOD_ID, name), block);
