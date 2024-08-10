@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/template_glazed_terracotta",
   "textures": {
     "pattern": "animamsm:block/block_of_stripe"
   }

@@ -5,6 +5,8 @@ import net.animamsm.modid.item.ModItemGroups;
 import net.animamsm.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +20,7 @@ public class AnimaMSM implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAPLE_BLOCK, RenderLayer.getTranslucent());
 	}
 }
