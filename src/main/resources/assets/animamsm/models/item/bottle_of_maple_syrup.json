@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "animamsm:item/bottle_of_maple_syrup"
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "anima_msm",
+	"version": "${version}",
+	"name": "Anima MSM",
+	"description": "Anima is a mod adding extra content for the MSM server including lore items, trinkets, and new building blocks.",
+	"authors": [
+		"Danx",
+		"Moistboi",
+		"Masaia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/anima-msm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.animamsm.modid.AnimaMSM"
+		],
+		"client": [
+			"net.animamsm.modid.AnimaMSMClient"
+		],
+		"fabric-datagen": [
+			"net.animamsm.modid.AnimaMSMDataGenerator"
+		]
+	},
+	"mixins": [
+		"anima-msm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "Trinkets API"
+	}
+}
