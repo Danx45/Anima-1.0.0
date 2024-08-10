@@ -16,7 +16,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
     public static final Block ADOBE_BRICKS = registerBlock("adobe_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
-    public static final Block STRIPE_BLOCK = registerBlock("block_of_stripe",
+    public static final Block BLOCK_OF_STRIPE = registerBlock("block_of_stripe",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
