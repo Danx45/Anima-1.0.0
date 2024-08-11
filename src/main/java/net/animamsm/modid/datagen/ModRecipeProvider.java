@@ -13,17 +13,18 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    //private static List<ItemConvertible>MISC_ORE_SMELTABLES = List.of(ModItems.RAW_MIS, ModBlocks.MISC_ORE);
+    private static List<ItemConvertible> MAPLE = List.of(ModItems.BOTTLE_OF_MAPLE_SYRUP);
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        //offerSmelting(exporter, MISC_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.MISC,0.5f, 200, "MISC");
+        offerSmelting(exporter, MAPLE, RecipeCategory.MISC, ModItems.CAN_OF_PEPSI,0.2f, 300, "MISC");
         //offerBlasting(exporter, MISC_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.MISC,0.5f, 100, "MISC");
 
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.MAPLE_BLOCK, ModItems.BOTTLE_OF_MAPLE_SYRUP);
@@ -39,5 +40,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STURDY_BRICKS, Blocks.BRICKS);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.REFRACTORY_BRICKS, Blocks.BRICKS);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_STRIPE, Blocks.BLACK_CONCRETE);
+
+
+
     }
 }

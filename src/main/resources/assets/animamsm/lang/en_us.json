@@ -3,6 +3,8 @@
   "item.animamsm.heart_of_the_woods": "Heart of the Forest",
   "item.animamsm.masaian_conduit": "Masaian Flight Conduit",
   "item.animamsm.empty_artifact": "Empty Artifact",
+  "item.animamsm.can_of_pepsi": "Can of Pepsi",
+  "item.animamsm.fish_knife": "Fish Knife",
 
   "block.animamsm.maple_block": "Maple Block",
   "block.animamsm.adobe_bricks": "Adobe Bricks",
@@ -11,7 +13,7 @@
   "block.animamsm.block_of_stripe": "Block of Stripe",
 
   "tooltip.animamsm.wood_heart.tooltip": "It reminds me of Moist's father...",
-  "tooltip.animamsm.masaian_conduit.tooltip": "The gift of flight",
+  "tooltip.animamsm.masaian_conduit.tooltip": "In the skies of Masaia...",
   "tooltip.animamsm.empty_artifact.tooltip": "It feels hollow...",
 
   "itemgroup.anima": "Anima"

@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BOTTLE_OF_MAPLE_SYRUP);
                         entries.add(ModItems.MASAIAN_CONDUIT);
                         entries.add(ModItems.EMPTY_ARTIFACT);
+                        entries.add(ModItems.CAN_OF_PEPSI);
+                        entries.add(ModItems.FISH_KNIFE);
 
                         entries.add(ModBlocks.MAPLE_BLOCK);
                         entries.add(ModBlocks.ADOBE_BRICKS);

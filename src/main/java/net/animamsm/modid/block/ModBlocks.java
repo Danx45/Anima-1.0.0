@@ -19,6 +19,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block MAPLE_BLOCK = registerBlock("maple_block",
             new MapleBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
+    public static final Block MOIST_PLUSH = registerBlock("moist_plush",
+            new MapleBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
     public static final Block ADOBE_BRICKS = registerBlock("adobe_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
     public static final Block REFRACTORY_BRICKS = registerBlock("refractory_bricks",
