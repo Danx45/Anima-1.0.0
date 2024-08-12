@@ -26,6 +26,7 @@ public class MasaiaFlightItem extends TrinketItem {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.animamsm.masaian_conduit.tooltip").formatted(Formatting.ITALIC).formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("tooltip.animamsm.masaian_conduit.tooltip2").formatted(Formatting.ITALIC).formatted(Formatting.GRAY));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

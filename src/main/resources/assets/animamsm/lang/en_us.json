@@ -13,7 +13,8 @@
   "block.animamsm.block_of_stripe": "Block of Stripe",
 
   "tooltip.animamsm.wood_heart.tooltip": "It reminds me of Moist's father...",
-  "tooltip.animamsm.masaian_conduit.tooltip": "In the skies of Masaia...",
+  "tooltip.animamsm.masaian_conduit.tooltip": "an artifact of masaian cosomology, one of only a few;",
+  "tooltip.animamsm.masaian_conduit.tooltip2": "superposes the bearer to glide on light itself.",
   "tooltip.animamsm.empty_artifact.tooltip": "It feels hollow...",
 
   "itemgroup.anima": "Anima"
